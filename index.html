@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Bootstrap Navbar Example</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        /* Custom styles for navbar links */
+        .navbar-nav .nav-link {
+            color: white; /* Text color */
+            font-weight: bold; /* Font weight */
+            text-transform: uppercase; /* Uppercase text */
+            font-size: 14px; /* Font size */
+            padding: 0.5rem 1rem; /* Padding around text */
+            transition: color 0.3s; /* Smooth transition for color change */
+        }
+
+        /* Hover effect for navbar links */
+        .navbar-nav .nav-link:hover {
+            color: rgb(211, 211, 211); /* Change color on hover */
+            text-decoration: none; /* Remove underline on hover */
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark text-light bg-dark">
+        <a class="navbar-brand" href="#">Story website</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="story1.html">Story 1  <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="story2.html">Story 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="story3.html">Story 3</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="story4.html">Story 4</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="story5.html">Story 5</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="story6.html">Story 6</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--home page -->
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="./picture 2.avif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title"> A Thirsty crow</h5>
+                      <a href="story1.html" class="btn btn-primary">Go to story1</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="./picture 3 the dog and the bone.avif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title"> The Dog and the Bone</h5>
+                      <a href="story2.html" class="btn btn-primary">Go to story2</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="./the ant and the grasshoper.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title"> The Ant and the Grasshopper</h5>
+                      <a href="story3.html" class="btn btn-primary">Go to story3</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="./picture 5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title"> The Elephant and the Ants</h5>
+                      <a href="story4.html" class="btn btn-primary">Go to story4</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="./picture 6.avif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title"> The Ugly Duckling</h5>
+                      <a href="story5.html" class="btn btn-primary">Go to story5</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="./picture 7.avif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title"> The Lion and the Poor Slave</h5>
+                      <a href="story6.html" class="btn btn-primary">Go to story6</a>
+                    </div>
+                  </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
